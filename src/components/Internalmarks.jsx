@@ -28,7 +28,7 @@ const Internalmarks = () => {
             "totalExam2": "",
             "assignment1": "",
             "assignment2": "",
-            "email":""
+            "email": ""
         }
     )
 
@@ -50,6 +50,11 @@ const Internalmarks = () => {
 
     return (
         <div>
+            <nav class="navbar navbar-expand-lg bg-primary">
+                <div class="container-md">
+                    <a class="navbar-brand" href="#">InternalMarks_App</a>
+                </div>
+            </nav>
             <h1><center>Enter Details</center></h1><br />
             <div className="container">
                 <div className="row">

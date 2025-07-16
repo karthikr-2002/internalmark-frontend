@@ -1,3 +1,73 @@
-body{
-  background-color: aquamarine;
+body {
+    background: linear-gradient(to right, #e3f2fd, #bbdefb);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding-bottom: 50px;
+}
+
+.navbar {
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.navbar-brand {
+    color: white;
+    font-weight: bold;
+    font-size: 24px;
+}
+
+h1 {
+    font-size: 34px;
+    font-weight: 700;
+    color: #0d47a1;
+    margin-top: 25px;
+    margin-bottom: 15px;
+    text-shadow: 1px 1px 0 #ccc;
+}
+
+label.form-label {
+    font-weight: 600;
+    color: #0d47a1;
+    font-size: 15px;
+}
+
+input.form-control {
+    border-radius: 10px;
+    padding: 10px;
+    border: 1px solid #b0bec5;
+    transition: all 0.3s ease-in-out;
+}
+
+input.form-control:focus {
+    border-color: #42a5f5;
+    box-shadow: 0 0 6px rgba(33, 150, 243, 0.5);
+    outline: none;
+}
+
+button.btn-primary {
+    background-color: #1976d2;
+    border: none;
+    border-radius: 12px;
+    padding: 12px 0;
+    font-weight: bold;
+    font-size: 18px;
+    width: 100%;
+    transition: 0.3s ease;
+    margin-top: 10px;
+}
+
+button.btn-primary:hover {
+    background-color: #2b82e4;
+    box-shadow: 0 4px 14px rgba(21, 101, 192, 0.4);
+}
+
+.card {
+    background-color: #ffffff;
+    border-radius: 20px;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.2);
+    padding: 25px;
+    margin-top: 30px;
+}
+
+.card-title {
+    color: #263238;
+    margin-bottom: 10px;
 }
