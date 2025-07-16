@@ -4,9 +4,9 @@ import React, { useState } from 'react'
 const Internalmarks = () => {
 
     const [output, changeOutput] = useState({
-        name:"",
-        admno:"",
-        batch:"",
+        name: "",
+        admno: "",
+        batch: "",
         internalMark: "",
         attandance: "",
         Exam: "",
@@ -27,7 +27,8 @@ const Internalmarks = () => {
             "exam2": "",
             "totalExam2": "",
             "assignment1": "",
-            "assignment2": ""
+            "assignment2": "",
+            "email":""
         }
     )
 
@@ -49,7 +50,7 @@ const Internalmarks = () => {
 
     return (
         <div>
-            <h1><center>Enter Details</center></h1><br/>  
+            <h1><center>Enter Details</center></h1><br />
             <div className="container">
                 <div className="row">
                     <div className="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 col-xxl-12">
@@ -98,6 +99,11 @@ const Internalmarks = () => {
                                 <label htmlFor="" className="form-label">Assignment 2 marks</label>
                                 <input type="text" className="form-control" name='assignment2' value={input.assignment2} onChange={inputHandler} />
                             </div>
+                            <div className="col-12 col-sm-6 col-md-6 col-lg-6 col-xl-6 col-xxl-6">
+                                <label htmlFor="" className="form-label">Email</label>
+                                <input type="email" className="form-control" name='email' value={input.email} onChange={inputHandler} />
+                            </div>
+
                             <div className="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 col-xxl-12">
                                 <button className="btn btn-primary" onClick={readInput}>Calculate</button>
                             </div>
@@ -115,7 +121,7 @@ const Internalmarks = () => {
                                 </div>
                             </div>
 
-                            {}
+                            { }
                         </div>
                     </div>
                 </div>
