@@ -1,5 +1,6 @@
 import axios from 'axios'
 import React, { useState } from 'react'
+import Navbar from './Navbar'
 
 const Internalmarks = () => {
 
@@ -50,11 +51,7 @@ const Internalmarks = () => {
 
     return (
         <div>
-            <nav class="navbar navbar-expand-lg bg-primary">
-                <div class="container-md">
-                    <a class="navbar-brand" href="#">InternalMarks_App</a>
-                </div>
-            </nav>
+            <Navbar/>
             <h1><center>Enter Details</center></h1><br />
             <div className="container">
                 <div className="row">
